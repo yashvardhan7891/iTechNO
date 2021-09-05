@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+:root{
+    --main-bg-color: rgb(50, 117, 218); /*variable*/
+    --font1:  'Lora', serif;
+    --font2: 'Kaisei HarunoUmi', serif;
+
+}
+
+.font1{
+font-family: var(--font1);
+}
+
+.font2{
+font-family: var(--font2);
+}
+
+.max-width-1{
+max-width: 80vw; /*vw - viewport width*/
+}
+
+.max-width-2{
+max-width: 60;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+padding: 0 15px;
+border: 2px solid black;
+border-radius: 4px;
+font-size: 16px;
+font-family: var(--font1);
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: blanchedalmond;
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
